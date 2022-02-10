@@ -1,0 +1,98 @@
+*{
+	font-family: arial;
+}
+
+.imran_header{}
+.imran_header span{
+	  font-size: 22px;
+    padding-left: 20px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #2E1A72;
+}
+
+.imran_header img{
+	min-width: 180px;
+	max-width: 190px;
+	height: auto;
+
+}
+.text-imran{
+	color: #2E1A72 !important;
+}
+
+.bg-imran{
+	background-color: #2E1A72 !important;
+}
+
+.btn-imran{
+	background-color: #2E1A72 !important;
+}
+
+.border-imran {
+    border-color: #2E1A72 !important;
+}
+
+nav.imran_menu a{color: white;font-size: 18px;}
+
+nav.imran_menu ul li {border-right: 1px solid #fff;}
+
+nav.imran_menu ul li:last-child {border-right: 0px solid #fff;}
+
+.navbar-dark .navbar-nav .nav-link{color: white;}
+.imran_about span {border-bottom: 2px solid #000;}
+
+.imran_about p{
+	font-size: 16px;
+	line-height: 26px;
+	text-align: justify;
+}
+.imran_notice li a {list-style: none;text-decoration: none;color: #000;font-size: 16px;line-height: 25px;}
+.imran_dire h5 span{border-bottom: 1px solid #000;padding-bottom: 1px;}
+.imran_dire p{
+	text-align: justify;
+}
+.imran_title span{
+	font-size: 20px;
+	font-weight: bold;
+}
+
+#btn-back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: none;
+}
+
+
+@media only screen and (max-width: 900px) {
+  nav.imran_menu ul li {border-right: 0px solid #fff;border-bottom: 1px solid #fff;}
+  nav.imran_menu ul li:last-child {border-right: 0px solid #fff;border-bottom: 0px solid #fff;}
+
+  .imran_header span{
+	  font-size: 18px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+
+  .imran_header span{
+	  font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+
+  .imran_header span{
+	  font-size: 13px;
+	  padding: 0px;
+	  text-transform: none;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+
+  .imran_header span{
+	  display: none;
+  }
+}
