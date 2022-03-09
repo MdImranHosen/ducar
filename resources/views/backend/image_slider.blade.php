@@ -116,7 +116,14 @@
                   </div>
                   <div class="form-group">
                     <label for="description">Sub Title</label>
-                    <input type="text" class="form-control" name="description" id="description" placeholder="Enter Sub Title" value="{{ old('description') }}">
+
+                    <!-- <input type="text" class="form-control" name="description" id="description" placeholder="Enter Sub Title" value="{{ old('description') }}"> -->
+                    
+                    <textarea class="form-control" name="description" id="description">
+                      {{ old('description') }}
+                    </textarea>
+
+
                     @error('description') <span class="text-danger"> {{ $message }}  </span> @enderror
                   </div>
                   <div class="form-group">

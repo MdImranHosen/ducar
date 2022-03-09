@@ -26,7 +26,7 @@ class ImageSliderController extends Controller
 
       $request->validate([
           'title' => ['required', 'string', 'max:255'],
-          'description' => ['required', 'string', 'max:255'],
+          'description' => ['required', 'string'],
           'image_name' => 'required|image|mimes:jpeg,png,jpg,gif,svg|max:2048',
       ]);
 
